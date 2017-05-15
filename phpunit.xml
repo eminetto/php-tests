@@ -1,0 +1,7 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="hello-world">
+      <file>hello-world/hello-world_test.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
