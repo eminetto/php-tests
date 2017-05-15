@@ -1,0 +1,4 @@
+language: php
+php:
+  - '7.1'
+script: chmod +x phpunit-6.1.phar;./phpunit-6.1.phar --coverage-text --colors=never 
