@@ -2,7 +2,5 @@ pipeline:
   test:
     image: php:7.1-cli
     commands:
-      - apt-get update
-      - apt-get install wget -y
       - chmod +x phpunit-6.1.phar
       - ./phpunit-6.1.phar --coverage-text --colors=never
