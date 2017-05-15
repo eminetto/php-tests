@@ -4,6 +4,5 @@ pipeline:
     commands:
       - apt-get update
       - apt-get install wget -y
-      - wget https://phar.phpunit.de/phpunit-6.1.phar
-      - chmod + x phpunit-6.1.phar
+      - chmod +x phpunit-6.1.phar
       - ./phpunit-6.1.phar --coverage-text --colors=never
