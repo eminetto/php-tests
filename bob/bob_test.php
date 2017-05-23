@@ -161,21 +161,21 @@ class BobTest extends PHPUnit\Framework\TestCase
 
 //    public function testOtherWhitespace()
 //    {
-/
+//
 //
 //        $this->assertEquals("Fine. Be that way!", $this->bob->respondTo("\n\r \t\u000b\u00a0\u2002"));
 //    }
 //
 //    public function testShoutingWithUmlauts()
 //    {
-/
+//
 //
 //        $this->assertEquals("Whoa, chill out!", $this->bob->respondTo("ÜMLÄÜTS!"));
 //    }
 //
 //    public function testCalmlySpeakingWithUmlauts()
 //    {
-/
+// 
 //
 //        $this->assertEquals("Whatever.", $this->bob->respondTo("ÜMLäÜTS!"));
 //    }
